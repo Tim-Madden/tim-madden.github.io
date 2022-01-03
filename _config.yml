@@ -18,11 +18,14 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "blog"}
   - {file: "README.md", title: "about"}
-  - {file: "/resume.pdf", title: "resume-plain"}
+  - <a href="username.github.io/resume.pdf" target="_blank">PDF.</a>
+  # - {file: "/resume.pdf", title: "resume-plain"}
+  # - <a href="username.github.io/folder/document.pdf" target="_blank">PDF.</a>
   
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:filter.suspect.mail@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/tim-madden"}
+  - <a href="username.github.io/folder/resume.pdf" target="_blank">PDF.</a>
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
