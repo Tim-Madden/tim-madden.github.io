@@ -6,6 +6,6 @@ layout: page
 
 # Title
 - Bullet
-- [Tim's Resume][1]
+- [Tim's resume.pdf][1]
 
 [1]:{{ site.url }}/resume.pdf
